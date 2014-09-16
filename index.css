@@ -1,0 +1,168 @@
+.menu{
+    background-color:rgb(100,100,100); 
+    position:fixed; 
+    top:10%; left:3%; 
+    width:160px; height:300px; 
+    z-index:100;
+}
+.main{
+    background-color:rgb(220,100,100);
+    position:absolute;
+    height:4500px;
+    margin-left:70px;    
+    margin-right:70px;
+    top:0px;
+    z-index:10;
+    font-family:Arial,Helvetica,sans-serif;
+}
+.content{   
+    height:900px; width:100%;
+    float:left;
+}
+.logo{
+    margin:4% 4% 2% 4%;
+    height:20%; width:92%;
+    float:left;
+}
+.item{
+    font:12px Times New Roman;
+    font-weight:900;
+    background-color:rgb(154,205,50);
+    margin:2% 4% 2% 4%;
+    height:13%;
+    width:92%;
+    float:left;
+    text-decoration:none;
+}
+.itemselected{
+    background-color:yellow;
+}
+
+/*block about*/
+.block1{
+    background-color:rgb(200,215,200);
+    margin:20px 5% 20px 12%;
+    height:800px;
+    width:80%
+    float:left;
+    padding:2%;
+}
+.introSelf{
+    width:58%;
+    float:left;
+    font-size:large; font-family:Arial,Helvetica,sans-serif;
+}
+.selfPic{
+    width:38%;
+    margin:2%;
+    float:left;
+}
+
+/*block education*/
+.block2{
+    background-color:rgb(220,220,220);
+    margin:20px 5% 20px 12%;
+    height:800px;
+    width:80%
+    float:left;
+    padding:2%;
+}
+.slogo1{width:10%; margin:2%; float:left;}
+.nyu{width:66%; margin:2% 2% 0% 4%; float:left;}
+.f35{font-size:35px;}
+.f25{font-size:25px;}
+.enum{font-size:large; font-family:Arial,Helvetica,sans-serif; list-style-type:square;}
+.grad{width:10%; margin:2%; float:left;}
+.slogo2{width:11%; margin:0% 2% 2% 2%; float:left;}
+.nthu{width:66%; margin:1% 2% 2% 3%; float:left;} 
+
+
+/*block skill & exp*/
+.block3{
+    background-color:rgb(225,222,179);
+    margin:20px 5% 20px 12%;
+    height:800px;
+    width:80%
+    float:left;
+    padding:3% 1% 2% 2%;
+}
+.dexp{width:60%; float:left; height:100;}
+.f18{font-size:18px;}
+.set{width:32%; padding:1%; border-style:groove; float:left; margin:1% 0% 0% 2%;}
+.performPic{width:35%; float:left; margin:8% 2% 2% 2%;}
+
+.block4{
+    background-color:rgb(180,200,210);
+    margin:20px 5% 20px 12%;
+    height:350px;
+    width:80%
+    float:left;
+    padding:2%;
+}
+
+.block5{
+    background-color:rgb(210,165,210);
+    margin:20px 5% 20px 12%;
+    height:800px;
+    width:80%
+    float:left;
+    padding:3% 0% 2% 3%;
+}
+.panel{width:540px;height:200px;padding:1%;float:left;border-style:groove;}
+.puzzp1{width:240px;padding:30px 0 30px 2px;float:left;}
+.puzzp2{display:none;width:240px;padding:0 0 0 2px;float:left;}
+.show{position:relative;float:left;width:200px;height:150px;border-style:ridge;border-color:rgb(220,180,220);margin:0% 5% 2% 10%;}
+.butt{width:22%;height:25px;margin:1%;font-size:15px;font-weight:900;}
+.puzz{position:absolute;top:0px;left:0px;display:none;}
+.small{margin:0 0 0 10px;width:340px;height:218px;float:left;border-style:groove;}
+.smallpic{width:100%;height:100%;display:none;}
+.workarea{
+    position:relative;
+    background-color:rgb(220,220,220);
+    width:880px;
+    margin:3% 2% 2% 2%;
+    height:540px;
+    float:left;
+    border-style:outset;
+    border-color:rgb(230,230,230);
+}
+.bigpic{position:absolute;left:41px;top:41px;z-index:1;}
+.finish{position:absolute;width:100%;height:100%;z-index:30;display:none;}
+.picbox{
+    position:absolute; 
+    width:200px;height:150px;
+    border-style:solid none none solid;
+    border-color:gray;border-width:1px;
+    z-index:2;
+}
+.picbox2{
+    border-style:none;
+}
+.hoverb{background-color:rgb(95,158,160);opacity:0.4;}
+.test{boder-color:yellow;}
+
+
+.pbox1{left:40px;top:40px;}
+.pbox2{left:240px;top:40px;}
+.pbox3{left:440px;top:40px;}
+.pbox4{left:640px;top:40px;border-right-style:solid}
+.pbox5{left:40px;top:190px;}
+.pbox6{left:240px;top:190px;}
+.pbox7{left:440px;top:190px;}
+.pbox8{left:640px;top:190px;border-right-style:solid;}
+.pbox9{left:40px;top:340px;border-bottom-style:solid;}
+.pbox10{left:240px;top:340px;border-bottom-style:solid;}
+.pbox11{left:440px;top:340px;border-bottom-style:solid;}
+.pbox12{left:640px;top:340px;border-right-style:solid;border-bottom-style:solid;}
+
+
+
+.super{
+    background-color:rgb(154,205,50);
+}
+
+span {
+    color:rgb(255,100,0);
+}
+
+li {margin:0;padding:0;}
